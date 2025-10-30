@@ -1,5 +1,52 @@
-# Vue 3 + Vite
+# OrangeStore Dashboard
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple product dashboard built with **Vue 3**, using the
+public **FakeStore API** to display product list and product details
+with search & filter features.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+------------------------------------------------------------------------
+
+## How to Run the Project
+
+### 1. Clone the repository
+
+``` bash
+git clone https://github.com/alfifauzia02/orangestore-dashboard.git
+```
+
+### 2. Go to project folder
+
+``` bash
+cd orangestore-dashboard
+```
+
+### 3️. Install dependencies
+
+``` bash
+npm install
+```
+
+### 4️. Run development server
+
+``` bash
+npm run dev
+```
+
+------------------------------------------------------------------------
+
+## 📦 Build for Production
+
+``` bash
+npm run build
+npm run preview
+```
+
+------------------------------------------------------------------------
+
+## Tech Stack
+
+- **Frontend Framework:** Vue 3 (Vite)
+- **Programming Language:** JavaScript
+- **Styling:** CSS
+- **HTTP Client:** Axios
+- **API Source:** FakeStore API
